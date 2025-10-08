@@ -28,7 +28,7 @@ import java.util.UUID;
 @Controller
 @RequestMapping("/auth")
 @RequiredArgsConstructor
-public class AuthController {
+public class    AuthController {
 
     private final UserService userService;
     private final SessionService sessionService;
